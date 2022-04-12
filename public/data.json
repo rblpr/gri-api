@@ -1,0 +1,12 @@
+{
+    "standard_1": {
+        "description": "TESTO PRINCIPALE STANDARD 1",
+        "section_1": "la sezione 1 parla di questo",
+        "section_2": "la sezione 2 parla di quello"
+    },
+    "standard2": {
+        "description": "TESTO PRINCIPALE STANDARD 2",
+        "section_1": "sezione speciale!",
+        "section_2": "la sezione 2 parla di quest'altro"
+    }
+}
