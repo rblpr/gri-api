@@ -3,7 +3,7 @@
 This is an API example.
 The server contains 3 pieces of data and 4 routes.
 
-## DOCUMENTATION EXAMPLE
+## Documentation example
 
 Documentation explaining how to request the data and the format of responenses must be provided with the API.
 
@@ -54,14 +54,12 @@ Documentation explaining how to request the data and the format of responenses m
         }
 
 
-
-
-
-## NEXT STEPS
+## Next steps
 
 - Access token for confidential data.
 - Use a DBMS to store data.
 - Traffic analysis tools.
 - Route to get all data in one file.
 - Parametrized routes for a dynamic API.
+- Web crawler to verify customers web pages.
 
