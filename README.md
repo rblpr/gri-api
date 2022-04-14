@@ -1,15 +1,18 @@
-# ESEMPIO API
+# API DEMO
 
-Insieme all'API deve essere fornita una documentazione che spieghi come richiedere i dati e in che formato vengono ricevuti
+This is an API example.
+The server contains 3 pieces of data and 4 routes.
 
-## Esempio di documentazione
+## DOCUMENTATION EXAMPLE
+
+Documentation explaining how to request the data and the format of responenses must be provided with the API.
 
     BASE URL:  https://gri.server.com
 
 
     GET  /GRI_API/STANDARD_1/
 
-        restituisce tutte le informazioni relative allo standard 1
+        Returns all infos about Standard 1.
 
         RESPONSE:
         {
@@ -26,12 +29,12 @@ Insieme all'API deve essere fornita una documentazione che spieghi come richiede
 
     GET  /GRI_API/STANDARD_2/SECTION_1/
 
-        restituisce il testo relativo alla sezione 1 dello standard 2
+        Returns text relative to the first section of Standard 2.
 
 
     POST /GRI_API/PREMIUM_REQUEST
 
-        restituisce informazioni riservare e/o a pagamento
+        Returns private or premium informations. A key for verification must be provided.
 
         REQUEST BODY:
         {
@@ -54,11 +57,11 @@ Insieme all'API deve essere fornita una documentazione che spieghi come richiede
 
 
 
-## POSSIBILI MIGLIORAMENTI
+## NEXT STEPS
 
-- ACCESS TOKEN PER RENDERE L'API A PAGAMENTO
-- UTILIZZO DI UN DATABASE PER CONSERVARE I DATI (POSSIBILE MODIFICA DA APP GESTIONALE)
-- UTILIZZO DI TOOL PER CONTROLLO DEL TRAFFICO
-- SALVARE I DATI IN UN FILE JSON SCARICABILE DIRETTAMENTE
-- ROUTES CON PARAMETRI PER NON DOVER MODIFICARE L'API QUANDO SI AGGIUNGE O TOGLIE jUNO STANDARD
+- Access token for confidential data.
+- Use a DBMS to store data.
+- Traffic analysis tools.
+- Route to get all data in one file.
+- Parametrized routes for a dynamic API.
 

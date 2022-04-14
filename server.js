@@ -1,4 +1,4 @@
-//Cose tecniche per far funzionare il server
+//Server setup
 const express = require("express");
 
 const app = express();
@@ -49,7 +49,8 @@ const standard2_1 = {
   },
 };
 
-//routes delle richieste all'API
+//API ROUTES
+
 app.get("/GRI_API/STANDARD_1", (req, res) => {
   res.json(standard1);
 });
