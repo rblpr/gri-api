@@ -5,31 +5,48 @@ The server contains 3 pieces of data and 4 routes.
 
 ## Documentation example
 
-Documentation explaining how to request the data and the format of responenses must be provided with the API.
+Documentation explaining how to request the data and the format of responses must be provided with the API.
 
     BASE URL:  https://gri.server.com
 
 
-    GET  /GRI_API/STANDARD_1/
+    GET  /GRI_API/GRI_2/
 
-        Returns all infos about Standard 1.
+        Returns all infos about the Universal Standard GRI 2.
 
         RESPONSE:
         {
-            description: String;
-            section_1: String;
-            section_2: String;
-            section_3: {
-                main_text: String;
-                subsection_1: String;
-                subsection_2: String;
+            title: String;
+            section_1: {
+                title: String,
+                section_1: {
+                    title: String,
+                },
+                section_2: {
+                    title: String,
+                },
+                section_3: {
+                    title: String,
+                }
+            },
+            section_2: {
+                title: String,
+                section_1: {
+                    title: String,
+                },
+                section_2: {
+                    title: String,
+                },
+                section_3: {
+                    title: String,
+                }
             }
         }
 
 
-    GET  /GRI_API/STANDARD_2/SECTION_1/
+    GET  /GRI_API/GRI_2/SECTION_1/
 
-        Returns text relative to the first section of Standard 2.
+        Returns all subsections of the first section of the Universal Standard GRI 2.
 
 
     POST /GRI_API/PREMIUM_REQUEST
